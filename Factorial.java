@@ -13,6 +13,8 @@ public class Factorial {
             factorialNumber++;
             factorial *=factorialNumber;
         }
-        System.out.println("The value of n " + factorialNumber);
+        System.out.println("The value of n = " + factorialNumber);
+         scanner.close();
     }
+   
 }
